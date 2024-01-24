@@ -1,0 +1,251 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "🇧🇷🇦🇷 Latam Hub | Universal 🇦🇷🇧🇷", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--Tabs
+
+local Tab1 = Window:MakeTab({
+	Name = "Home",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "Blox Fruits (9)",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Blade Ball (6)",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab4 = Window:MakeTab({
+	Name = "Brookhaven (8)",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--Sections
+
+local Section = Tab1:AddSection({
+	Name = "Created By Shife"
+})
+
+local Section = Tab1:AddSection({
+	Name = "@ShifeScripter in Youtube!"
+})
+
+local Section = Tab2:AddSection({
+	Name = "Blox Fruits (9)"
+})
+
+local Section = Tab3:AddSection({
+	Name = "Blade Ball (6)"
+})
+
+local Section = Tab4:AddSection({
+	Name = "Brookhaven (8)"
+})
+
+--Buttons 1
+
+Tab1:AddButton({
+	Name = "Copy Discord Link Server",
+	Callback = function()
+	setclipboard("https://discord.com/invite/crP7e9ps5F")
+      		print("button pressed")
+  	end    
+})
+
+--Buttons 2
+
+Tab2:AddButton({
+	Name = "Blox Fruits 1",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnablez/Winnable/main/Loader")){}
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Blox Fruits 2",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastefy.app/RSdAffrS/raw"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Blox Fruits 3",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Blox Fruits 4",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Blox Fruits 5",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lkleda/premium/main/BluzHubBF.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Blox Fruits 6",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/malfume/Script/main/RIMUS"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Blox Fruits 7",
+	Callback = function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/UPDATE-20-Blox-Fruits-Best-fruit-Script-8947"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Blox Fruits 8",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Blox-Fruit.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Blox Fruits 9",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Blox-Fruit.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+--Butons 3
+
+Tab3:AddButton({
+	Name = "Blade Ball 1",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/w2QjDTcF"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Blade Ball 2",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/dBGjm0Lv"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Blade Ball 3",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/romkich09/stire/main/starballkey", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Blade Ball 4",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lkleda/premium/main/bluzhub.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Blade Ball 5",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/VKChA5XH"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Blade Ball 6",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/FL71vYPT"))()
+      		print("button pressed")
+  	end    
+})
+
+--Buttons 3
+
+Tab4:AddButton({
+	Name = "Brookhaven 1",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Brookhaven 2",
+	Callback = function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Brookhaven 3",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/FE2Wji0K"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Brookhaven 4",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/2LFaGSmm"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Brookhaven 5",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Re2gbH55"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Brookhaven 6",
+	Callback = function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/g97RafnE'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Brookhaven 7",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FreeeScripts/FREEHub/main/Loader", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Brookhaven 8",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BorisLua/AntaresHubSuaMaeNaMinhaCama/main/AntaresHub.lua"))()
+      		print("button pressed")
+  	end    
+})
