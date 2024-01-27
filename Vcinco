@@ -109,7 +109,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYH
 end)
 
 Tab4Section:NewButton("PetSimulator99 2","Increase speed",function()
-getgenv().FartOnMeDaddy = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Electron-Testing/Auto-Dig"))()
 end)
 
